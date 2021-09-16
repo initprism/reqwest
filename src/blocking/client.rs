@@ -3,7 +3,7 @@ use std::any::Any;
 use std::convert::TryInto;
 use std::fmt;
 use std::future::Future;
-use std::net::IpAddr;
+use std::net::{IpAddr, SocketAddr};
 use std::sync::Arc;
 use std::thread;
 use std::time::Duration;
